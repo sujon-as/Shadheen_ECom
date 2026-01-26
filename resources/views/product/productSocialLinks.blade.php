@@ -78,15 +78,15 @@
     {{--        ><span></span--}}
     {{--            ></a>--}}
     {{--    </div>--}}
-    <a href="javascript:void(0);"
-       class="btn btn-dark btn-rounded btn-sm ml-lg-2"
-       id="add_to_cart"
-       data-id="{{ $productId }}"
-       data-title="{{ $product['title'] }}"
-       data-image="{{ config('api.url') . $product['image'] }}"
-       data-price="{{ $product['price'] }}"
-       data-point="{{ $product['point'] ?? 0 }}"
-    >
-        Add to cart
-    </a>
+{{--    <a href="javascript:void(0);"--}}
+{{--       class="btn btn-dark btn-rounded btn-sm ml-lg-2"--}}
+{{--       id="add_to_cart"--}}
+{{--       data-id="{{ $productId }}"--}}
+{{--       data-title="{{ $product['title'] }}"--}}
+{{--       data-image="{{ config('api.url') . $product['image'] }}"--}}
+{{--       data-price="{{ $product['price'] }}"--}}
+{{--       data-point="{{ $product['point'] ?? 0 }}"--}}
+{{--    >--}}
+{{--        Add to cart--}}
+{{--    </a>--}}
 </div>

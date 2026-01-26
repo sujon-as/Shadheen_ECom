@@ -32,12 +32,22 @@
                     >
                         Detail
                     </h4>
-                    <p class="mb-4">
-                        {{ $product['details'] ?? 'No details found.' }}
-                    </p>
+                    @if($product['title'])
+                        <p class="mb-4">
+                            {{ $product['title'] }}
+                        </p>
+                    @endif
+
+                    @if($product['details'])
+                        <p class="mb-4">
+                            {{ $product['details'] }}
+                        </p>
+                    @endif
+
+                    <p class="mb-4">Note: Cash On Delivery.</p>
 
                 </div>
-                <div class="col-md-6 mb-5">
+                <div class="col-md-6 mb-5 d-none">
                     <div class="banner banner-video product-video br-xs">
                         <figure class="banner-media">
                             <a href="#">
@@ -54,7 +64,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row cols-md-3">
+            <div class="row cols-md-3 d-none">
                 <div class="mb-3">
                     <h5 class="sub-title font-weight-bold">
                         <span class="mr-3">1.</span>Free Shipping &amp;

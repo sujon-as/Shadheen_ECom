@@ -61,7 +61,7 @@
                                                        data-point="{{ $product['point'] ?? 0 }}"
                                                        title="Wishlist"></a>
 {{--                                                    <a href="#" class="btn-product-icon btn-compare w-icon-compare" title="Compare"></a>--}}
-                                                    <a href="{{ route('product-details', ['product_id' => $product['Id']]) }}" class="btn-product-icon btn-quickview w-icon-search" title="Quick View"></a>
+{{--                                                    <a href="{{ route('product-details', ['product_id' => $product['Id']]) }}" class="btn-product-icon btn-quickview w-icon-search" title="Quick View"></a>--}}
                                                 </div>
                                             </figure>
                                             <div class="product-details">
@@ -71,13 +71,13 @@
                                                 <h3 class="product-name">
                                                     <a href="{{ route('product-details', ['product_id' => $product['Id']]) }}">{{ $product['Title'] }}</a>
                                                 </h3>
-                                                <div class="ratings-container">
-                                                    <div class="ratings-full">
-                                                        <span class="ratings" style="width: 100%"></span>
-                                                        <span class="tooltiptext tooltip-top">5.0</span>
-                                                    </div>
-                                                    <a href="#" class="rating-reviews">(0 reviews)</a>
-                                                </div>
+{{--                                                <div class="ratings-container">--}}
+{{--                                                    <div class="ratings-full">--}}
+{{--                                                        <span class="ratings" style="width: 100%"></span>--}}
+{{--                                                        <span class="tooltiptext tooltip-top">5.0</span>--}}
+{{--                                                    </div>--}}
+{{--                                                    <a href="#" class="rating-reviews">(0 reviews)</a>--}}
+{{--                                                </div>--}}
                                                 <div class="product-pa-wrapper">
                                                     <div class="product-price">৳ {{ $product['Price'] }}</div>
                                                 </div>

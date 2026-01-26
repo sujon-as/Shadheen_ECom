@@ -3,6 +3,7 @@
 @section('content')
 <main class="main mb-10 pb-1">
         <!-- Start of Breadcrumb -->
+        <!--
         <nav class="breadcrumb-nav container">
           <ul class="breadcrumb bb-no">
             <li><a href="{{ route('home') }}">Home</a></li>
@@ -39,6 +40,7 @@
             </li>
           </ul>
         </nav>
+        -->
         <!-- End of Breadcrumb -->
 
         @if($product)
@@ -59,7 +61,7 @@
                                                 }
                                             }"
                                         >
-                                            <!--@include('product.productShowingSection')-->
+                                            @include('product.productShowingSection')
 
                                             <button class="swiper-button-next"></button>
                                             <button class="swiper-button-prev"></button>
@@ -96,8 +98,8 @@
                                             <div class="product-bm-wrapper">
                                                 <figure class="brand">
                                                     <img
-                                                        src="{{ config('api.url') .$product['image'] }}"
-                                                        alt="Brand"
+                                                        src="{{ config('api.url') . $product['image'] }}"
+                                                        alt="{{ $product['title'] }}"
                                                         width="102"
                                                         height="48"
                                                     />
@@ -123,20 +125,20 @@
                                                 <ins class="new-price">৳ {{ $product['price'] }}</ins>
                                             </div>
 
-                                            <div class="ratings-container">
-                                                <div class="ratings-full">
-                                                    <span class="ratings" style="width: 80%"></span>
-                                                    <span class="tooltiptext tooltip-top"></span>
-                                                </div>
-                                                <a
-                                                    href="#"
-                                                    class="rating-reviews scroll-to"
-                                                >(3 Reviews)</a
-                                                >
-                                            </div>
+{{--                                            <div class="ratings-container">--}}
+{{--                                                <div class="ratings-full">--}}
+{{--                                                    <span class="ratings" style="width: 80%"></span>--}}
+{{--                                                    <span class="tooltiptext tooltip-top"></span>--}}
+{{--                                                </div>--}}
+{{--                                                <a--}}
+{{--                                                    href="#"--}}
+{{--                                                    class="rating-reviews scroll-to"--}}
+{{--                                                >(3 Reviews)</a--}}
+{{--                                                >--}}
+{{--                                            </div>--}}
                                             @if(isset($product['point']))
                                                 <div class="product-price">
-                                                    PB: <ins class="new-price">৳ {{ $product['point'] }}</ins>
+                                                    E-point: <ins class="new-price">৳ {{ $product['point'] }}</ins>
                                                 </div>
                                             @endif
 

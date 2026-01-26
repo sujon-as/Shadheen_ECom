@@ -1,7 +1,6 @@
 @if(!$product || empty($product['title']))
     <p>Nothing found.</p>
 @else
-    
     <div class="swiper-wrapper row cols-1 gutter-no">
     <div class="swiper-slide">
         <figure class="product-image">
@@ -16,6 +15,3 @@
     </div>
 </div>
 @endif
-
-
-
