@@ -3,7 +3,7 @@
         <div class="container">
             <div class="header-left">
                 <p class="welcome-msg">
-                    Welcome to {{ session('about_us.institute_name') ?? 'RIT Ecommerce' }}
+                    Welcome to {{ session('about_us.institute_name') ?? 'Shadhin e-Commerce' }}
                 </p>
             </div>
             <div class="header-right">
@@ -46,7 +46,7 @@
                 </a>
                 <a href="{{ route('home') }}" class="logo ml-lg-0">
                     <img
-                        src="{{ asset('assets/images/demos/demo3/RIT2.png') }}"
+                        src="{{ asset('assets/images/demos/demo3/logo.png') }}"
                         alt="logo"
                         width="144"
                         height="45"

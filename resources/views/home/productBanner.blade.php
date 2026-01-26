@@ -2,6 +2,6 @@
     Arrival Products
 </h2>
 <div class="row banner-product-wrapper appear-animate mb-10">
-{{--    @include('home.recommendedProductSlider')--}}
-    @include('home.recommendedProductBanner')
+    @include('home.recommendedProductSlider')
+{{--    @include('home.recommendedProductBanner')--}}
 </div>

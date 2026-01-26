@@ -14,7 +14,7 @@
                     }
                 }"
 >
-    <div class="swiper-wrapper row cols-lg-3 cols-sm-2 cols-1">
+    <div class="swiper-wrapper row cols-lg-3 cols-sm-2 cols-1 mt-10">
         <div class="swiper-slide">
             <figure class="banner banner-fixed br-sm">
                 <img
@@ -34,7 +34,7 @@
                         Tranding NIKE<br />Sneaker
                     </h3>
                     <a
-                        href="{{ route('shopFullwidthBanner', ['category' => 'Glossary']) }}"
+                        href="{{ route('home') }}"
                         class="btn btn-white btn-link btn-underline btn-icon-right"
                     >
                         Shop Now<i class="w-icon-long-arrow-right"></i>
@@ -62,7 +62,7 @@
                         Vegan Friendly<br />Makeup
                     </h3>
                     <a
-                        href="{{ route('shopFullwidthBanner', ['category' => 'Cosmetic']) }}"
+                        href="{{ route('home') }}"
                         class="btn btn-dark btn-link btn-underline btn-icon-right"
                     >
                         Shop Now<i class="w-icon-long-arrow-right"></i>
@@ -90,7 +90,7 @@
                         Fashion Apple<br />Accessories
                     </h3>
                     <a
-                        href="{{ route('shopFullwidthBanner', ['category' => 'Mobile']) }}"
+                        href="{{ route('home') }}"
                         class="btn btn-white btn-link btn-underline btn-icon-right"
                     >
                         Shop Now<i class="w-icon-long-arrow-right"></i>
@@ -100,74 +100,4 @@
         </div>
     </div>
     <div class="swiper-pagination"></div>
-</div>
-
-<div
-    class="swiper-container swiper-theme icon-box-wrapper appear-animate br-sm mt-6 mb-10"
-    data-swiper-options="{
-                    'slidesPerView': 1,
-                    'breakpoints': {
-                        '576': {
-                            'slidesPerView': 2
-                        },
-                        '768': {
-                            'slidesPerView': 3
-                        },
-                        '992': {
-                            'slidesPerView': 3
-                        },
-                        '1200': {
-                            'slidesPerView': 4
-                        }
-                    }
-                }"
->
-    <div class="swiper-wrapper row cols-md-4 cols-sm-3 cols-1">
-        <div class="swiper-slide icon-box icon-box-side text-dark">
-                <span class="icon-box-icon icon-shipping">
-                  <i class="w-icon-truck"></i>
-                </span>
-            <div class="icon-box-content">
-                <h4 class="icon-box-title mb-1 ls-normal">
-                    Free Shipping & Returns
-                </h4>
-                <p class="text-default">For all orders over $99</p>
-            </div>
-        </div>
-        <div class="swiper-slide icon-box icon-box-side text-dark">
-                <span class="icon-box-icon icon-payment">
-                  <i class="w-icon-bag"></i>
-                </span>
-            <div class="icon-box-content">
-                <h4 class="icon-box-title mb-1 ls-normal">Secure Payment</h4>
-                <p class="text-default">We ensure secure payment</p>
-            </div>
-        </div>
-        <div
-            class="swiper-slide icon-box icon-box-side text-dark icon-box-money"
-        >
-                <span class="icon-box-icon icon-money">
-                  <i class="w-icon-money"></i>
-                </span>
-            <div class="icon-box-content">
-                <h4 class="icon-box-title mb-1 ls-normal">
-                    Money Back Guarantee
-                </h4>
-                <p class="text-default">Any back within 30 days</p>
-            </div>
-        </div>
-        <div
-            class="swiper-slide icon-box icon-box-side text-dark icon-box-chat"
-        >
-                <span class="icon-box-icon icon-chat">
-                  <i class="w-icon-chat"></i>
-                </span>
-            <div class="icon-box-content">
-                <h4 class="icon-box-title mb-1 ls-normal">
-                    Customer Support
-                </h4>
-                <p class="text-default">Call or email us 24/7</p>
-            </div>
-        </div>
-    </div>
 </div>

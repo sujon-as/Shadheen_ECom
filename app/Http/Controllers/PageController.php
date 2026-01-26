@@ -21,6 +21,7 @@ class PageController extends Controller
         // Featured Products data
         $featuredProductResponse = Http::asForm()->post(config('api.url') . 'api/home_page_special.php');
         $featuredProducts = ($featuredProductResponse->successful() && $featuredProductResponse['error'] == 0) ? $featuredProductResponse['report'] : [];
+//        dd($featuredProducts);
 
         return view('index', compact('slides', 'arrivalProducts', 'featuredProducts'));
     }
