@@ -47,7 +47,7 @@
 {{--            ></a>--}}
 {{--    </div>--}}
     <a href="javascript:void(0);"
-       class="btn btn-dark btn-rounded btn-sm ml-lg-2 btn-cart add-to-cart"
+       class="btn btn-dark btn-rounded btn-sm ml-lg-2 btn-cart add-to-cart" style="background-color: #0f1535 !important;"
        data-id="{{ $productId }}"
        data-title="{{ $product['title'] }}"
        data-image="{{ config('api.url') . $product['image'] }}"

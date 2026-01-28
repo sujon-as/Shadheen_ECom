@@ -92,7 +92,7 @@
                                             class="product-details"
                                             data-sticky-options="{'minWidth': 767}"
                                         >
-                                            <h1 class="product-title">
+                                            <h1 class="product-title" style="color: #0f1535 !important;">
                                                 {{ $product['title'] }}
                                             </h1>
                                             <div class="product-bm-wrapper">
@@ -105,11 +105,11 @@
                                                     />
                                                 </figure>
                                                 <div class="product-meta">
-                                                    <div class="product-categories">
+                                                    <div class="product-categories"  style="color: #0f1535 !important;">
                                                         Category:
-                                                        <span class="product-category"
-                                                        ><a href="#">{{ $product['category'] }}</a></span
-                                                        >
+                                                        <span class="product-category"  style="color: #0f1535 !important;">
+                                                            <a href="#">{{ $product['category'] }}</a>
+                                                        </span>
                                                     </div>
                                                     <!--
                                                   <div class="product-sku">
@@ -121,7 +121,7 @@
 
                                             <hr class="product-divider" />
 
-                                            <div class="product-price">
+                                            <div class="product-price" style="color: #0f1535 !important;">
                                                 <ins class="new-price">৳ {{ $product['price'] }}</ins>
                                             </div>
 
@@ -137,12 +137,12 @@
 {{--                                                >--}}
 {{--                                            </div>--}}
                                             @if(isset($product['point']))
-                                                <div class="product-price">
+                                                <div class="product-price" style="color: #0f1535 !important;">
                                                     E-point: <ins class="new-price">৳ {{ $product['point'] }}</ins>
                                                 </div>
                                             @endif
 
-                                            <div class="product-short-desc">
+                                            <div class="product-short-desc" style="color: #0f1535 !important;">
                                                 {{ $product['details'] }}
                                             </div>
 

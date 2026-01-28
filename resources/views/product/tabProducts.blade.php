@@ -1,7 +1,7 @@
 <div class="tab tab-nav-boxed tab-nav-underline product-tabs">
     <ul class="nav nav-tabs" role="tablist">
         <li class="nav-item">
-            <a href="#product-tab-description" class="nav-link active"
+            <a href="#product-tab-description" class="nav-link active" style="color: #0f1535 !important;"
             >Description</a
             >
         </li>
@@ -28,23 +28,23 @@
             <div class="row mb-4">
                 <div class="col-md-6 mb-5">
                     <h4
-                        class="title tab-pane-title font-weight-bold mb-2"
+                        class="title tab-pane-title font-weight-bold mb-2" style="color: #0f1535 !important;"
                     >
                         Detail
                     </h4>
                     @if($product['title'])
-                        <p class="mb-4">
+                        <p class="mb-4" style="color: #0f1535 !important;">
                             {{ $product['title'] }}
                         </p>
                     @endif
 
                     @if($product['details'])
-                        <p class="mb-4">
+                        <p class="mb-4" style="color: #0f1535 !important;">
                             {{ $product['details'] }}
                         </p>
                     @endif
 
-                    <p class="mb-4">Note: Cash On Delivery.</p>
+                    <p class="mb-4" style="color: #0f1535 !important;">Note: Cash On Delivery.</p>
 
                 </div>
                 <div class="col-md-6 mb-5 d-none">
