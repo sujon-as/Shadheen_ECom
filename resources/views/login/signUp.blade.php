@@ -2,27 +2,27 @@
     @csrf
 
     <div class="form-group">
-        <label>Full Name *</label>
+        <label style="color: #0f1535 !important;">Full Name *</label>
         <input type="text" class="form-control" name="name" required>
     </div>
 
     <div class="form-group">
-        <label>Mobile Number *</label>
+        <label style="color: #0f1535 !important;">Mobile Number *</label>
         <input type="text" class="form-control" name="mobile" required>
     </div>
 
     <div class="form-group">
-        <label>Email *</label>
+        <label style="color: #0f1535 !important;">Email *</label>
         <input type="email" class="form-control" name="email" required>
     </div>
 
     <div class="form-group">
-        <label>NID *</label>
+        <label style="color: #0f1535 !important;">NID *</label>
         <input type="text" class="form-control" name="nid" required>
     </div>
 
     <div class="form-group">
-        <label>Gender *</label>
+        <label style="color: #0f1535 !important;">Gender *</label>
         <select name="gender" class="form-control" required>
             <option value="Male">Male</option>
             <option value="Female">Female</option>
@@ -30,22 +30,22 @@
     </div>
 
     <div class="form-group">
-        <label>Country *</label>
+        <label style="color: #0f1535 !important;">Country *</label>
         <input type="text" class="form-control" name="country" value="Bangladesh" required>
     </div>
 
     <div class="form-group">
-        <label>Password *</label>
+        <label style="color: #0f1535 !important;">Password *</label>
         <input type="password" class="form-control" name="first_password" required>
     </div>
 
     <div class="form-group">
-        <label>Confirm Password *</label>
+        <label style="color: #0f1535 !important;">Confirm Password *</label>
         <input type="password" class="form-control" name="re_password" required>
     </div>
 
     <div class="form-group">
-        <label>Referral ID (Optional)</label>
+        <label style="color: #0f1535 !important;">Referral ID (Optional)</label>
         <input type="text" class="form-control" name="referral_id">
     </div>
 
@@ -65,14 +65,14 @@
     <input type="hidden" name="user" value="">
 
     <div class="form-group">
-        <button type="submit" class="btn btn-primary w-100">Register</button>
+        <button type="submit" class="btn btn-primary w-100" style="background-color: #0f1535 !important; color: white !important; border-color: #0f1535 !important;">Register</button>
     </div>
 </form>
 
 <div class="form-footer text-center mt-4">
     <p>
         Already have an account?
-        <a href="{{ route('login') }}" class="text-primary font-weight-bold">
+        <a href="{{ route('login') }}" class="text-primary font-weight-bold" style="color: #0f1535 !important;">
             Login
         </a>
     </p>

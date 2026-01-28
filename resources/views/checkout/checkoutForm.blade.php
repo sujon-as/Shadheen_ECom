@@ -2,7 +2,7 @@
     <div class="row mb-9">
         <div class="col-lg-7 pr-lg-4 mb-4">
             <h3
-                class="title billing-title text-uppercase ls-10 pt-1 pb-3 mb-0"
+                class="title billing-title text-uppercase ls-10 pt-1 pb-3 mb-0" style="color: #0f1535 !important;"
             >
                 Billing Details
             </h3>
@@ -13,7 +13,7 @@
             <input type="hidden" name="device_id" value="{{ request()->ip() }}">
             <input type="hidden" name="type" value="web">
 
-            <div class="form-group">
+            <div class="form-group" style="color: #0f1535 !important;">
                 <label>Name *</label>
                 <input type="text" class="form-control" name="name" value="{{ session('name') ?? '' }}" required />
             </div>

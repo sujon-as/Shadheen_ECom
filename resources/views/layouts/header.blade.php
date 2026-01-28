@@ -11,24 +11,24 @@
 
                 <!-- End of Dropdown Menu -->
 
-                <a href="{{ route('contact-us') }}" class="d-lg-show">Contact Us</a>
+                <a href="{{ route('contact-us') }}" class="d-lg-show" style="color: black !important;">Contact Us</a>
                 @if(Session::has('user_id'))
                     <a
                         href="#"
-                        class="d-lg-show"
-                    ><i class="w-icon-account"></i>{{ Session::get('name') ?? '' }}</a
+                        class="d-lg-show" style="color: black !important;"
+                    ><i class="w-icon-account" style="color: black !important;"></i>{{ Session::get('name') ?? '' }}</a
                     >
                     <span class="delimiter d-lg-show">/</span>
                     <a
                         href="{{ route('logout') }}"
-                        class="ml-0 d-lg-show"
+                        class="ml-0 d-lg-show" style="color: black !important;"
                     >Logout</a
                     >
                 @else
                     <a
                         href="{{ route('login') }}"
-                        class="d-lg-show"
-                    ><i class="w-icon-account"></i>Sign In</a>
+                        class="d-lg-show" style="color: black !important;"
+                    ><i class="w-icon-account" style="color: black !important;"></i>Sign In</a>
                 @endif
             </div>
         </div>

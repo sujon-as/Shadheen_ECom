@@ -5,7 +5,7 @@
         <!-- Start of Page Header -->
         <div class="page-header">
           <div class="container">
-            <h1 class="page-title mb-0">Contact Us</h1>
+            <h1 class="page-title mb-0" style="color: #0f1535 !important;">Contact Us</h1>
           </div>
         </div>
         <!-- End of Page Header -->
@@ -13,7 +13,7 @@
         <!-- Start of Breadcrumb -->
         <nav class="breadcrumb-nav mb-10 pb-1">
           <div class="container">
-            <ul class="breadcrumb">
+            <ul class="breadcrumb" style="color: #0f1535 !important;">
               <li><a href="{{ route('home') }}">Home</a></li>
               <li>Contact Us</li>
             </ul>
@@ -25,8 +25,8 @@
         <div class="page-content contact-us">
           <div class="container">
             <section class="content-title-section mb-10">
-              <h3 class="title title-center mb-3">Contact Information</h3>
-              <p class="text-center">
+              <h3 class="title title-center mb-3" style="color: #0f1535 !important;">Contact Information</h3>
+              <p class="text-center" style="color: #0f1535 !important;">
                 {{ session('about_us.about_us') !== ""  ? session('about_us.about_us') : '' }}
               </p>
             </section>
@@ -58,9 +58,9 @@
                     class="swiper-slide icon-box text-center icon-box-primary"
                   >
                     <span class="icon-box-icon icon-email">
-                      <i class="w-icon-envelop-closed"></i>
+                      <i class="w-icon-envelop-closed" style="color: #0f1535 !important;"></i>
                     </span>
-                    <div class="icon-box-content">
+                    <div class="icon-box-content" style="color: #0f1535 !important;">
                       <h4 class="icon-box-title">E-mail Address</h4>
                       <p>
                         {{ session('about_us.institute_email')  }}
@@ -71,9 +71,9 @@
                     class="swiper-slide icon-box text-center icon-box-primary"
                   >
                     <span class="icon-box-icon icon-headphone">
-                      <i class="w-icon-headphone"></i>
+                      <i class="w-icon-headphone" style="color: #0f1535 !important;"></i>
                     </span>
-                    <div class="icon-box-content">
+                    <div class="icon-box-content" style="color: #0f1535 !important;">
                       <h4 class="icon-box-title">Phone Number</h4>
                       <p>{{ session('about_us.institute_phone')  }}</p>
                     </div>
@@ -82,9 +82,9 @@
                     class="swiper-slide icon-box text-center icon-box-primary"
                   >
                     <span class="icon-box-icon icon-map-marker">
-                      <i class="w-icon-map-marker"></i>
+                      <i class="w-icon-map-marker" style="color: #0f1535 !important;"></i>
                     </span>
-                    <div class="icon-box-content">
+                    <div class="icon-box-content" style="color: #0f1535 !important;">
                       <h4 class="icon-box-title">Address</h4>
                       <p>{{ session('about_us.institute_address')  }}</p>
                     </div>
@@ -93,9 +93,9 @@
                     class="swiper-slide icon-box text-center icon-box-primary"
                   >
                     <span class="icon-box-icon icon-fax">
-                      <i class="w-icon-fax"></i>
+                      <i class="w-icon-fax" style="color: #0f1535 !important;"></i>
                     </span>
-                    <div class="icon-box-content">
+                    <div class="icon-box-content" style="color: #0f1535 !important;">
                       <h4 class="icon-box-established">Established</h4>
                       <p>{{ session('about_us.established')  }}</p>
                     </div>
@@ -110,13 +110,13 @@
             <section class="contact-section">
               <div class="row gutter-lg pb-3">
                 <div class="col-lg-6 mb-8">
-                  <h4 class="title mb-3">People usually ask these</h4>
+                  <h4 class="title mb-3" style="color: #0f1535 !important;">People usually ask these</h4>
                   <div
                     class="accordion accordion-bg accordion-gutter-md accordion-border"
                   >
                     <div class="card">
-                      <div class="card-header">
-                        <a href="#collapse1" class="collapse"
+                      <div class="card-header" style="color: #0f1535 !important;">
+                        <a href="#collapse1" class="collapse" style="color: #0f1535 !important;"
                           >How can I cancel my order?</a
                         >
                       </div>
@@ -131,8 +131,8 @@
                     </div>
 
                     <div class="card">
-                      <div class="card-header">
-                        <a href="#collapse2" class="expand"
+                      <div class="card-header" style="color: #0f1535 !important;">
+                        <a href="#collapse2" class="expand" style="color: #0f1535 !important;"
                           >Why is my registration delayed?</a
                         >
                       </div>
@@ -147,8 +147,8 @@
                     </div>
 
                     <div class="card">
-                      <div class="card-header">
-                        <a href="#collapse3" class="expand"
+                      <div class="card-header" style="color: #0f1535 !important;">
+                        <a href="#collapse3" class="expand" style="color: #0f1535 !important;"
                           >What do I need to buy products?</a
                         >
                       </div>
@@ -163,8 +163,8 @@
                     </div>
 
                     <div class="card">
-                      <div class="card-header">
-                        <a href="#collapse4" class="expand"
+                      <div class="card-header" style="color: #0f1535 !important;">
+                        <a href="#collapse4" class="expand" style="color: #0f1535 !important;"
                           >How can I track an order?</a
                         >
                       </div>
@@ -179,8 +179,8 @@
                     </div>
 
                     <div class="card">
-                      <div class="card-header">
-                        <a href="#collapse5" class="expand"
+                      <div class="card-header" style="color: #0f1535 !important;">
+                        <a href="#collapse5" class="expand" style="color: #0f1535 !important;"
                           >How can I get money back?</a
                         >
                       </div>
@@ -226,7 +226,7 @@
                         class="form-control"
                       ></textarea>
                     </div>
-                    <button type="submit" class="btn btn-dark btn-rounded">
+                    <button type="submit" class="btn btn-dark btn-rounded" style="background-color: #0f1535 !important; color: white !important;">
                       Send Now
                     </button>
                   </form>

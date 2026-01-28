@@ -2,6 +2,7 @@
     class="swiper-container swiper-theme intro-banner appear-animate"
     data-swiper-options="{
                     'spaceBetween': 20,
+                    'loop': false,
                     'slidesPerView': 1,
                     'breakpoints': {
                         '576': {
@@ -14,7 +15,7 @@
                     }
                 }"
 >
-    <div class="swiper-wrapper row cols-lg-3 cols-sm-2 cols-1 mt-10">
+    <div class="swiper-wrapper row cols-lg-3 cols-sm-2 cols-1">
         <div class="swiper-slide">
             <figure class="banner banner-fixed br-sm">
                 <img

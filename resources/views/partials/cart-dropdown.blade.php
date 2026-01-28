@@ -13,7 +13,7 @@
         <span class="cart-label">Cart</span>
     </a>
     <div class="dropdown-box" id="cart-dropdown-box">
-        <div class="cart-header">
+        <div class="cart-header" style="color: #0f1535 !important;">
             <span>Shopping Cart</span>
             <a href="#" class="btn-close">Close <i class="w-icon-long-arrow-right"></i></a>
         </div>
@@ -21,11 +21,11 @@
         <div class="products" id="cart-items-list">
             @forelse($cartItems as $item)
                 <div class="product product-cart">
-                    <div class="product-detail">
+                    <div class="product-detail" style="color: #0f1535 !important;">
                         <a href="{{ route('product-details', ['product_id' => $item['id']]) }}" class="product-name">{{ $item['title'] }}</a>
                         <div class="price-box">
                             <span class="product-quantity">1</span>
-                            <span class="product-price">৳{{ $item['price'] }}</span>
+                            <span class="product-price" style="color: #0f1535 !important;">৳{{ $item['price'] }}</span>
                         </div>
                     </div>
                     <figure class="product-media">
@@ -38,18 +38,18 @@
                     </button>
                 </div>
             @empty
-                <p class="text-center p-3">Cart is empty.</p>
+                <p class="text-center p-3" style="color: #0f1535 !important;">Cart is empty.</p>
             @endforelse
         </div>
 
-        <div class="cart-total">
+        <div class="cart-total" style="color: #0f1535 !important;">
             <label>Subtotal:</label>
             <span class="price" id="cart-subtotal">৳{{ $cartSubtotal }}</span>
         </div>
 
         <div class="cart-action">
             <a href="{{ route('cart') }}" class="btn btn-dark btn-outline btn-rounded">View Cart</a>
-            <a href="{{ route('checkout') }}" class="btn btn-primary btn-rounded">Checkout</a>
+            <a href="{{ route('checkout') }}" class="btn btn-primary btn-rounded" style="background-color: #0f1535 !important; border-color: #0f1535 !important">Checkout</a>
         </div>
     </div>
 </div>

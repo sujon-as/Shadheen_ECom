@@ -76,7 +76,7 @@
 
                 <form class="coupon">
                   <h5
-                    class="title coupon-title font-weight-bold text-uppercase"
+                    class="title coupon-title font-weight-bold text-uppercase" style="color: #0f1535 !important;"
                   >
                     Coupon Discount
                   </h5>
@@ -86,7 +86,7 @@
                     placeholder="Enter coupon code here..."
                     required
                   />
-                  <button class="btn btn-dark btn-outline btn-rounded">
+                  <button class="btn btn-dark btn-outline btn-rounded" style="background-color: #0f1535 !important; color: white !important;">
                     Apply Coupon
                   </button>
                 </form>
@@ -94,9 +94,9 @@
               <div class="col-lg-4 sticky-sidebar-wrapper">
                 <div class="sticky-sidebar">
                   <div class="cart-summary mb-4">
-                    <h3 class="cart-title text-uppercase">Cart Totals</h3>
+                    <h3 class="cart-title text-uppercase" style="color: #0f1535 !important;">Cart Totals</h3>
                     <div
-                      class="cart-subtotal d-flex align-items-center justify-content-between"
+                      class="cart-subtotal d-flex align-items-center justify-content-between" style="color: #0f1535 !important;"
                     >
                       <label class="ls-25">Subtotal</label>
                       <span>৳ {{ $cartSubtotal }}</span>
@@ -108,14 +108,14 @@
 
                     <hr class="divider mb-6" />
                     <div
-                      class="order-total d-flex justify-content-between align-items-center"
+                      class="order-total d-flex justify-content-between align-items-center" style="color: #0f1535 !important;"
                     >
                       <label>Total</label>
                       <span class="ls-50">৳ {{ $cartSubtotal }}</span>
                     </div>
                     <a
                       href="{{ route('checkout') }}"
-                      class="btn btn-block btn-dark btn-icon-right btn-rounded btn-checkout"
+                      class="btn btn-block btn-dark btn-icon-right btn-rounded btn-checkout" style="background-color: #0f1535 !important;"
                     >
                       Proceed to checkout<i class="w-icon-long-arrow-right"></i
                     ></a>
