@@ -9354,7 +9354,7 @@ body .product-popup {
           flex: 1;
   padding: 1.14em 0;
   line-height: 1.2;
-  background-color: #fe7c00;
+  background-color: #0f1535 !important;
   color: #fff;
   font-size: 1.4em;
   font-weight: 600;
@@ -9395,10 +9395,10 @@ body .product-popup {
   font-weight: 600;
 }
 .btn-cart.btn-link {
-  color: #fe7c00;
+  color: white;
 }
 .btn-cart.btn-link:hover, .btn-cart.btn-link:active {
-  color: #fe7c00;
+  color: white;
 }
 .btn-cart:not(.btn-product-icon) i.w-icon-cart {
   font-size: 1.8rem;
@@ -9431,9 +9431,9 @@ body .product-popup {
   transition: background-color 0.3s, border-color 0.3s, color 0.3s, visibility 0.3s, opacity 0.3s, transform 0.3s, -webkit-transform 0.3s;
 }
 .btn-product-icon:hover, .btn-product-icon:active {
-  border-color: #fe7c00;
+  border-color: #0f1535 !important;
   color: #fff;
-  background-color: #fe7c00;
+  background-color: #0f1535 !important;
 }
 .btn-product-icon.btn-cart, .btn-product-icon.btn-quickview {
   font-size: 1.6em;
@@ -9633,7 +9633,7 @@ body .product-popup {
   color: inherit;
 }
 .product-name a:hover {
-  color: #fe7c00;
+  color: #0f1535 !important;
 }
 
 .product-cat {
@@ -14490,6 +14490,7 @@ aside .sp-sidebar-banner span {
 
 .header-right {
   margin-left: auto;
+    color: white !important;
 }
 
 .has-center .header-right {
@@ -14643,7 +14644,8 @@ aside .sp-sidebar-banner span {
   padding-top: 3.2rem;
   padding-bottom: 3.1rem;
   color: #333;
-  background: #fff;
+  /*background: #fff;*/
+  background: #0f1535 !important;
   font-size: 1.2rem;
   border-bottom: 1px solid #eee;
 }
@@ -14705,7 +14707,7 @@ aside .sp-sidebar-banner span {
           flex: 1;
   min-width: 40px;
   padding: 0.9rem;
-  border: 2px solid #fe7c00;
+  border: 2px solid #0f1535;
   border-right: 0;
   font-size: 1.2rem;
   letter-spacing: 0;
@@ -15216,7 +15218,7 @@ aside .sp-sidebar-banner span {
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.8rem;
-  background: #fe7c00;
+  background: #0f1535 !important;
   color: #fff;
   text-align: center;
 }
@@ -15431,7 +15433,8 @@ aside .sp-sidebar-banner span {
 }
 
 .category-dropdown > a {
-  background: #fe7c00;
+  /*background: #fe7c00;*/
+  background: #0f1535 !important;
   min-width: 28rem;
   padding: 1.9rem 1.8rem 1.7rem 2rem;
   letter-spacing: -0.025em;

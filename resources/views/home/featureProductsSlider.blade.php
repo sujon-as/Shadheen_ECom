@@ -130,7 +130,7 @@
 <div class="row">
     @if(count($featuredProducts) > 0)
         @foreach($featuredProducts as $featuredProduct)
-            <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-5 mb-5">
                 <div class="product product-simple text-center">
                     <figure class="product-media">
                         <a href="{{ route('product-details', ['product_id' => $featuredProduct['Id']]) }}">

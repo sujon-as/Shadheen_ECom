@@ -94,7 +94,7 @@
                         >
                             <a
                                 href="https://portotheme.com/cdn-cgi/l/email-protection#aa89"
-                                class="text-capitalize"
+                                class="text-capitalize" style="color: white !important;"
                             >Call Us Now</a
                             >
                             :
@@ -133,9 +133,9 @@
 
 <style>
     .search_input {
-        border-top: 2px solid #fe7c00 !important;
-        border-left: 2px solid #fe7c00 !important;
-        border-bottom: 2px solid #fe7c00 !important;
+        border-top: 2px solid white !important;
+        border-left: 2px solid white !important;
+        border-bottom: 2px solid white !important;
     }
 </style>
 

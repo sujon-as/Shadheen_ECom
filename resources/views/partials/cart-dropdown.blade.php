@@ -6,7 +6,7 @@
 
 <div class="dropdown cart-dropdown cart-offcanvas mr-0 mr-lg-2">
     <div class="cart-overlay"></div>
-    <a href="#" class="cart-toggle label-down link">
+    <a href="#" class="cart-toggle label-down link" style="color: white !important;">
         <i class="w-icon-cart">
             <span class="cart-count" id="cart-count">{{ $cartCount }}</span>
         </i>
