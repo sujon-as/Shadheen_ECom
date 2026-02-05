@@ -1,3 +1,14 @@
+<style>
+    .intro-banner .swiper-slide,
+    .intro-banner .banner {
+        height: 180px !important;
+    }
+
+    .intro-banner img {
+        height: 180px;
+        object-fit: cover;
+    }
+</style>
 <div
     class="swiper-container swiper-theme intro-banner appear-animate"
     data-swiper-options="{
@@ -16,14 +27,14 @@
                 }"
 >
     <div class="swiper-wrapper row cols-lg-3 cols-sm-2 cols-1">
-        <div class="swiper-slide">
+        <div class="swiper-slide" style="height: 5% !important;">
             <figure class="banner banner-fixed br-sm">
                 <img
                     src="{{ asset('assets/images/demos/demo3/categories/1.jpg') }}"
                     alt="Category Banner"
                     width="400"
                     height="200"
-                    style="background-color: #3c3c3c"
+                    style="background-color: #3c3c3c; width:100%; height:180px; object-fit:cover;"
                 />
                 <div class="banner-content y-50">
                     <h5
@@ -44,14 +55,14 @@
             </figure>
         </div>
 
-        <div class="swiper-slide">
+        <div class="swiper-slide" style="height: 5% !important;">
             <figure class="banner banner-fixed br-sm">
                 <img
                     src="{{ asset('assets/images/demos/demo3/categories/2.jpg') }}"
                     alt="Category Banner"
                     width="400"
                     height="200"
-                    style="background-color: #e1e1e1"
+                    style="background-color: #e1e1e1; width:100%; height:180px; object-fit:cover;"
                 />
                 <div class="banner-content y-50">
                     <h5
@@ -72,14 +83,14 @@
             </figure>
         </div>
 
-        <div class="swiper-slide">
+        <div class="swiper-slide" style="height: 5% !important;">
             <figure class="banner banner-fixed br-sm">
                 <img
                     src="{{ asset('assets/images/demos/demo3/categories/3.jpg') }}"
                     alt="Category Banner"
                     width="400"
                     height="200"
-                    style="background-color: #57585d"
+                    style="background-color: #57585d; width:100%; height:180px; object-fit:cover;"
                 />
                 <div class="banner-content y-50">
                     <h5

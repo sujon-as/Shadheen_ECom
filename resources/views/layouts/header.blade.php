@@ -87,7 +87,7 @@
             </div>
             <div class="header-right ml-4">
                 <div class="header-call d-xs-show d-lg-flex align-items-center">
-                    <a href="tel:#" class="w-icon-call"></a>
+                    <a href="tel:#" class="w-icon-call" style="color: white !important;"></a>
                     <div class="call-info d-lg-show">
                         <h4
                             class="chat font-weight-normal font-size-md text-normal ls-normal text-light mb-0"
@@ -99,17 +99,17 @@
                             >
                             :
                         </h4>
-                        <a href="tel:{{ session('about_us.institute_phone') ?? '+1 800 57 07777' }}" class="phone-number font-weight-bolder ls-50"
-                        >{{ session('about_us.institute_phone') ?? '+1 800 57 07777' }}</a
-                        >
+                        <a href="tel:{{ session('about_us.institute_phone') ?? '+1 800 57 07777' }}" class="phone-number font-weight-bolder ls-50" style="color: white !important;">
+                            {{ session('about_us.institute_phone') ?? '+1 800 57 07777' }}
+                        </a>
                     </div>
                 </div>
                 <a
                     class="wishlist label-down link d-xs-show"
                     href="{{ route('wishlist') }}"
                 >
-                    <i class="w-icon-heart"></i>
-                    <span class="wishlist-label d-lg-show">Wishlist</span>
+                    <i class="w-icon-heart" style="color: white !important;"></i>
+                    <span class="wishlist-label d-lg-show" style="color: white !important;">Wishlist</span>
                 </a>
                 @include('partials.cart-dropdown')
             </div>

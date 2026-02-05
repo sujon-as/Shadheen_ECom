@@ -8,15 +8,15 @@
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
     />
 
-    <title>{{ session('about_us.institute_name') ?? 'RIT e-commerce' }}</title>
+    <title>{{ session('about_us.institute_name') ?? 'Deficall' }}</title>
 
     <meta
       name="keywords"
-      content="{{ session('about_us.institute_name') ?? 'RIT Ecommerce' }}"
+      content="{{ session('about_us.institute_name') ?? 'Deficall' }}"
     />
     <meta
       name="description"
-      content="{{ session('about_us.institute_name') ?? 'RIT Ecommerce' }} is Bangladesh top leading ecommerce business"
+      content="{{ session('about_us.institute_name') ?? 'Deficall' }} is Bangladesh top leading ecommerce business"
     />
     <meta name="author" content="D-THEMES" />
 
@@ -127,7 +127,7 @@
 
   <body class="home">
     <div class="page-wrapper">
-      <h1 class="d-none">{{ session('about_us.institute_name') ?? 'RIT Ecommerce' }}</h1>
+      <h1 class="d-none">{{ session('about_us.institute_name') ?? 'Deficall' }}</h1>
       <!-- Start of Header -->
       @include('layouts.header')
       <!-- End of Header -->

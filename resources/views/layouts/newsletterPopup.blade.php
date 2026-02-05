@@ -3,9 +3,9 @@
         <h4 class="text-uppercase font-weight-normal ls-25">
             Get Up to<span class="text-primary">25% Off</span>
         </h4>
-        <h2 class="ls-25">Sign up to {{ session('about_us.institute_name') ?? 'RIT Ecommerce' }}</h2>
+        <h2 class="ls-25">Sign up to {{ session('about_us.institute_name') ?? 'Deficall' }}</h2>
         <p class="text-light ls-10">
-            Join with {{ session('about_us.institute_name') ?? 'RIT Ecommerce' }} for getting special offers.
+            Join with {{ session('about_us.institute_name') ?? 'Deficall' }} for getting special offers.
         </p>
         <form
             action="#"

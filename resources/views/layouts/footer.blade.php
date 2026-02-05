@@ -92,7 +92,7 @@
         <div class="footer-bottom">
             <div class="footer-left">
                 <p class="copyright">
-                    Copyright © 2025 {{ session('about_us.institute_name') ?? 'RIT Ecommerce' }}. All Rights Reserved.
+                    Copyright © 2025 {{ session('about_us.institute_name') ?? 'Deficall' }}. All Rights Reserved.
                 </p>
             </div>
             <div class="footer-right">
