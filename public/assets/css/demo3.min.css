@@ -4731,7 +4731,7 @@ blockquote {
   color: #666;
 }
 .breadcrumb.shop-breadcrumb li.active {
-  color: #0f1535 !important;
+  color: #0094c9 !important;
 }
 .breadcrumb.shop-breadcrumb li.passed {
   color: #333;
@@ -9354,7 +9354,7 @@ body .product-popup {
           flex: 1;
   padding: 1.14em 0;
   line-height: 1.2;
-  background-color: #0f1535 !important;
+  background-color: #0094c9 !important;
   color: #fff;
   font-size: 1.4em;
   font-weight: 600;
@@ -9431,9 +9431,9 @@ body .product-popup {
   transition: background-color 0.3s, border-color 0.3s, color 0.3s, visibility 0.3s, opacity 0.3s, transform 0.3s, -webkit-transform 0.3s;
 }
 .btn-product-icon:hover, .btn-product-icon:active {
-  border-color: #0f1535 !important;
+  border-color: #0094c9 !important;
   color: #fff;
-  background-color: #0f1535 !important;
+  background-color: #0094c9 !important;
 }
 .btn-product-icon.btn-cart, .btn-product-icon.btn-quickview {
   font-size: 1.6em;
@@ -9633,7 +9633,7 @@ body .product-popup {
   color: inherit;
 }
 .product-name a:hover {
-  color: #0f1535 !important;
+  color: #0094c9 !important;
 }
 
 .product-cat {
@@ -14466,7 +14466,7 @@ aside .sp-sidebar-banner span {
   color: inherit;
 }
 .header a:not(.btn):hover {
-  color: #0f1535 !important;
+  color: #0094c9 !important;
 }
 
 .header-top,
@@ -14645,7 +14645,7 @@ aside .sp-sidebar-banner span {
   padding-bottom: 3.1rem;
   color: #333;
   /*background: #fff;*/
-  background: #0f1535 !important;
+  background: #0094c9 !important;
   font-size: 1.2rem;
   border-bottom: 1px solid #eee;
 }
@@ -14707,7 +14707,7 @@ aside .sp-sidebar-banner span {
           flex: 1;
   min-width: 40px;
   padding: 0.9rem;
-  border: 2px solid #0f1535;
+  border: 2px solid #0094c9;
   border-right: 0;
   font-size: 1.2rem;
   letter-spacing: 0;
@@ -15218,7 +15218,7 @@ aside .sp-sidebar-banner span {
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.8rem;
-  background: #0f1535 !important;
+  background: #0094c9 !important;
   color: #fff;
   text-align: center;
 }
@@ -15270,8 +15270,8 @@ aside .sp-sidebar-banner span {
   margin-left: 1rem;
 }
 .cart-dropdown .cart-action .btn-dark:hover, .cart-dropdown .cart-action .btn-dark:active, .cart-dropdown .cart-action .btn-dark:focus {
-  border-color: #0f1535 !important;
-  background-color: #0f1535 !important;
+  border-color: #0094c9 !important;
+  background-color: #0094c9 !important;
   color: #fff;
 }
 .cart-dropdown .cart-total {
@@ -15434,7 +15434,7 @@ aside .sp-sidebar-banner span {
 
 .category-dropdown > a {
   /*background: #fe7c00;*/
-  background: #0f1535 !important;
+  background: #0094c9 !important;
   min-width: 28rem;
   padding: 1.9rem 1.8rem 1.7rem 2rem;
   letter-spacing: -0.025em;
@@ -15465,7 +15465,7 @@ aside .sp-sidebar-banner span {
 }
 .category-dropdown:hover > a, .category-dropdown.show > a {
   color: #fff;
-  background-color: #0f1535 !important;
+  background-color: #0094c9 !important;
 }
 .category-dropdown .dropdown-box {
   padding: 0;

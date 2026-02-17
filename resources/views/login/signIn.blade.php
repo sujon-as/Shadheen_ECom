@@ -1,11 +1,11 @@
 <div class="login-form">
-    <h3 class="form-title" style="color: #0f1535 !important;">Sign In</h3>
+    <h3 class="form-title" style="color: #0094c9 !important;">Sign In</h3>
 
     <form method="POST" action="{{ route('login.submit') }}">
         @csrf
 
-        <div class="form-group" style="color: #0f1535 !important;">
-            <label style="color: #0f1535 !important;">Username or mobile number *</label>
+        <div class="form-group" style="color: #0094c9 !important;">
+            <label style="color: #0094c9 !important;">Username or mobile number *</label>
             <input
                 type="text"
                 class="form-control"
@@ -20,7 +20,7 @@
         </div>
 
         <div class="form-group mb-0">
-            <label style="color: #0f1535 !important;">Password *</label>
+            <label style="color: #0094c9 !important;">Password *</label>
             <input
                 type="password"
                 class="form-control"
@@ -41,13 +41,13 @@
 {{--            <a href="#">Lost your password?</a>--}}
         </div>
 
-        <button type="submit" class="btn btn-primary mt-2" style="background-color: #0f1535 !important;  color: white !important; border-color: #0f1535 !important;">Sign In</button>
+        <button type="submit" class="btn btn-primary mt-2" style="background-color: #0094c9 !important;  color: white !important; border-color: #0f1535 !important;">Sign In</button>
     </form>
 
     <div class="form-footer text-center mt-4">
         <p>
             Don't have an account?
-            <a href="{{ route('register') }}" class="text-primary font-weight-bold" style="color: #0f1535 !important;">
+            <a href="{{ route('register') }}" class="text-primary font-weight-bold" style="color: #0094c9 !important;">
                 Register
             </a>
         </p>

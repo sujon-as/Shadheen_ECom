@@ -5,7 +5,7 @@
         <!-- Start of Page Header -->
         <div class="page-header">
           <div class="container">
-            <h1 class="page-title mb-0" style="color: #0f1535 !important;">My Account</h1>
+            <h1 class="page-title mb-0" style="color: #0094c9 !important;">My Account</h1>
           </div>
         </div>
         <!-- End of Page Header -->
@@ -13,7 +13,7 @@
         <!-- Start of Breadcrumb -->
         <nav class="breadcrumb-nav">
           <div class="container">
-            <ul class="breadcrumb" style="color: #0f1535 !important;">
+            <ul class="breadcrumb" style="color: #0094c9 !important;">
               <li><a href="{{ route('home') }}">Home</a></li>
               <li>My account</li>
             </ul>
@@ -21,7 +21,7 @@
         </nav>
         <!-- End of Breadcrumb -->
         <div class="page-content">
-          <div class="container" style="color: #0f1535 !important;">
+          <div class="container" style="color: #0094c9 !important;">
               @include('login.signIn')
           </div>
         </div>

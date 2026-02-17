@@ -6,7 +6,7 @@
                     <div class="widget widget-about">
                         <a href="#" class="logo-footer">
                             <img
-                                src="{{ asset('assets/images/demos/demo3/new-logo3.png') }}"
+                                src="{{ asset('assets/images/demos/demo3/new-logo_white.png') }}"
                                 alt="logo-footer"
                                 width="145"
                                 height="45"

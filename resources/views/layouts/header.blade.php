@@ -3,7 +3,7 @@
         <div class="container">
             <div class="header-left">
                 <p class="welcome-msg">
-                    Welcome to {{ session('about_us.institute_name') ?? 'Shadhin e-Commerce' }}
+                    Welcome to {{ session('about_us.institute_name') ?? 'SMC Global' }}
                 </p>
             </div>
             <div class="header-right">
@@ -35,7 +35,7 @@
     </div>
     <!-- End of Header Top -->
 
-    <div class="header-middle">
+    <div class="header-middle" style="background-color: #00409e !important;">
         <div class="container">
             <div class="header-left mr-md-4">
                 <a
@@ -46,7 +46,7 @@
                 </a>
                 <a href="{{ route('home') }}" class="logo ml-lg-0">
                     <img
-                        src="{{ asset('assets/images/demos/demo3/new-logo3.png') }}"
+                        src="{{ asset('assets/images/demos/demo3/new-logo_white.png') }}"
                         alt="logo"
                         width="144"
                         height="45"
@@ -119,6 +119,7 @@
 
     <div
         class="header-bottom sticky-content fix-top sticky-header has-dropdown"
+        style="background-color: #1dacdf !important;"
     >
         <div class="container">
             <div class="inner-wrap">
