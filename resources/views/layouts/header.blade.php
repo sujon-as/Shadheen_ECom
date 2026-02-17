@@ -46,7 +46,7 @@
                 </a>
                 <a href="{{ route('home') }}" class="logo ml-lg-0">
                     <img
-                        src="{{ asset('assets/images/demos/demo3/logo.png') }}"
+                        src="{{ asset('assets/images/demos/demo3/new-logo3.png') }}"
                         alt="logo"
                         width="144"
                         height="45"

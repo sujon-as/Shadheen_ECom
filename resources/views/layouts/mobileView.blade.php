@@ -38,7 +38,7 @@
                     <li><a href="{{ route('about-us') }}">About Us</a></li>
                     <li><a href="{{ route('contact-us') }}">Contact Us</a></li>
                     <li><a href="{{ route('faq') }}">FAQ's</a></li>
-                    <li><a href="https://ritglobal.org/">Login</a></li>
+                    <li><a href="{{ route('login') }}">Login</a></li>
                     @if(Session::has('user_id'))
                         <li><a href="{{ route('logout') }}">Logout</a></li>
                     @endif

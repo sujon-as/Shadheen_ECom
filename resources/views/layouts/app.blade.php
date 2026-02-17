@@ -8,20 +8,20 @@
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
     />
 
-    <title>{{ session('about_us.institute_name') ?? 'Deficall' }}</title>
+    <title>{{ session('about_us.institute_name') ?? 'SMC Global' }}</title>
 
     <meta
       name="keywords"
-      content="{{ session('about_us.institute_name') ?? 'Deficall' }}"
+      content="{{ session('about_us.institute_name') ?? 'SMC Global' }}"
     />
     <meta
       name="description"
-      content="{{ session('about_us.institute_name') ?? 'Deficall' }} is Bangladesh top leading ecommerce business"
+      content="{{ session('about_us.institute_name') ?? 'SMC Global' }} is Bangladesh top leading ecommerce business"
     />
     <meta name="author" content="D-THEMES" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="{{ asset('assets/images/icons/favicon.png') }}" />
+    <link rel="icon" type="image/png" href="{{ asset('assets/images/icons/icon.jpg') }}" />
     <link href="{{ asset('assets/css/toastr.min.css') }}" rel="stylesheet"/>
 
     <!-- WebFont.js -->
@@ -127,7 +127,7 @@
 
   <body class="home">
     <div class="page-wrapper">
-      <h1 class="d-none">{{ session('about_us.institute_name') ?? 'Deficall' }}</h1>
+      <h1 class="d-none">{{ session('about_us.institute_name') ?? 'SMC Global' }}</h1>
       <!-- Start of Header -->
       @include('layouts.header')
       <!-- End of Header -->

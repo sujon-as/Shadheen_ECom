@@ -6,7 +6,7 @@
                     <div class="widget widget-about">
                         <a href="#" class="logo-footer">
                             <img
-                                src="{{ asset('assets/images/demos/demo3/logo.png') }}"
+                                src="{{ asset('assets/images/demos/demo3/new-logo3.png') }}"
                                 alt="logo-footer"
                                 width="145"
                                 height="45"
@@ -92,7 +92,7 @@
         <div class="footer-bottom">
             <div class="footer-left">
                 <p class="copyright">
-                    Copyright © 2025 {{ session('about_us.institute_name') ?? 'Deficall' }}. All Rights Reserved.
+                    Copyright © 2025 {{ session('about_us.institute_name') ?? 'SMC Global' }}. All Rights Reserved.
                 </p>
             </div>
             <div class="footer-right">
